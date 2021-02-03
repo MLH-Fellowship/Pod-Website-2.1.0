@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import styles from "./Hero.module.css";
+import styles from './Hero.module.css';
 
 const Hero = () => {
   return <div className={styles.container}>Hero</div>;
