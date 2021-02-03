@@ -30,7 +30,7 @@ npm install
 npm start
 ```
 
-- This will start the server at l[ocalhost](https://localhost:3000)
+- This will start the server at [localhost](https://localhost:3000)
 
 # Issues
 
