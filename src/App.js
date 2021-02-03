@@ -1,8 +1,8 @@
-import "./App.css";
+import './App.css';
 
-import Hero from "./containers/Hero/Hero";
-import Fellows from "./containers/Fellows/Fellows";
-import Projects from "./containers/Projects/Projects";
+import Hero from './containers/Hero/Hero';
+import Fellows from './containers/Fellows/Fellows';
+import Projects from './containers/Projects/Projects';
 
 const App = () => {
   return (
