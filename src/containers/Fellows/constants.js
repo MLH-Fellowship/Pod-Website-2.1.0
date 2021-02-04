@@ -46,6 +46,14 @@ const fellows = [
         "linkedin": "https://www.linkedin.com/in/faisal-ahmed-farooq-6395a0174/",
         "website": "https://felixfaisal.github.io/Personal-Template/",
         "headshot": "https://drive.google.com/open?id=1in55eSsnMDXXiwZKRk5dSSUoVnSCtAyv"
+    },
+    {
+        "name": "Peter",
+        "bio": "Indie Builder. Augmented Reality & Computer Vision aficionado. Collect credit & debit cards sometimes.",
+        "github": "https://github.com/petercrackthecode",
+        "linkedin": "linkedin.com/in/petercrackthecode/",
+        "website": "petercrackthecode.github.io/portfolioPeter/",
+        "headshot": "https://drive.google.com/open?id=198oLw_G5C61YEKjf8hc6cImVG3upvNNU"
     }
 ]
 
