@@ -1,22 +1,31 @@
 {
   "projects": [
     {
-      "project": "PORTFOLIO-TEMPLATE",
+      "project": "PORTFOLIO TEMPLATE",
       "id": "1",
       "links": "https://github.com/",
-      "tech stack": "languages/frameworks"
+      "tech stack": "languages/frameworks",
+      "language": "jekyll",
+      "platform": "web", 
+      "descripting": "A template for portfolio"
     },
     {
       "project": "Name",
       "id": "2",
       "links": "https://github.com/",
-      "tech stack": "languages/frameworks"
+      "tech stack": "languages/frameworks",
+      "language": "jekyll",
+      "platform": "mobile", 
+      "descripting": "A template for portfolio"
     },
     {
       "project": "Name",
       "id": "3",
       "links": "https://github.com/",
-      "tech stack": "languages/frameworks"
+      "tech stack": "languages/frameworks",
+      "language": "jekyll",
+      "platform": "web", 
+      "descripting": "A template for portfolio"
     }
   ]
 }
