@@ -1,4 +1,11 @@
 .container {
   min-height: 100vh;
   width: 100vw;
+  font-family: 'DOCK11';
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 68px;
+  letter-spacing: 0em;
+  text-align: left;
 }
