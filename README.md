@@ -14,7 +14,7 @@ git clone <https> -b <branch-name>
 ```
 
 - After all the changes have been done, run 
-````bash
+```bash
 npm run format
 ```
 - Create a Pull request
