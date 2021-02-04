@@ -1,6 +1,7 @@
 import React from 'react';
 
 import styles from './Hero.module.css';
+import Fellows from '../Fellows'
 
 const Hero = () => {
   return <div className={styles.container}>HELLO THERE!
