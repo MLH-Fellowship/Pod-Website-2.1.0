@@ -11,3 +11,9 @@
   font-size: 80px;
   color: #FFD824;
 }
+
+.rows{
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}

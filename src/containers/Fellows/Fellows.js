@@ -1,6 +1,7 @@
 import React from "react";
 import {  MDBRow, MDBCard, MDBCardBody } from "mdbreact";
 import FellowCard from "../../components/FellowCard/FellowCard";
+import styles from './Fellows.module.css'
 
 const Fellows = () => {
 
@@ -24,7 +25,7 @@ const Fellows = () => {
           <p className="grey-text w-responsive mx-auto mb-5">
             Divided by countries and culture, United by Technology ! :heart:
           </p>
-          <MDBRow>
+          <MDBRow className={styles.rows}>
             {fellows.map((fellow, index) => {
               return(
                 <FellowCard key={index} name={fellow.name}/>
