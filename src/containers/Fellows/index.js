@@ -1,1 +1,1 @@
-export {default} from './Fellows';
+export { default } from './Fellows';

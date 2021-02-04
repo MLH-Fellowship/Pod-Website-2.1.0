@@ -1,6 +1,6 @@
 .container {
-  min-height: 100vh;
-  width: 100vw;
-  padding-left: var(--container-horizontal-padding);
-  padding-right: var(--container-horizontal-padding);
+  min-height: 60vh;
+  width: 60vw;
+  margin: auto;
+  margin-bottom: 100px;
 }

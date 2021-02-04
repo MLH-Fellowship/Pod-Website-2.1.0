@@ -4,7 +4,7 @@ The pod website to showcase our wonderful team.
 
 # Contributions and Pull Requests
 
-To contribute to the project follow these steps: 
+To contribute to the project follow these steps:
 
 - Create a new branch from the main branch
 - Clone the branch
@@ -13,10 +13,12 @@ To contribute to the project follow these steps:
 git clone <https> -b <branch-name>
 ```
 
-- After all the changes have been done, run 
+- After all the changes have been done, run
+
 ```bash
 npm run format
 ```
+
 - Create a Pull request
 - In the PR, under the projects settings, Add project `pod-website` (This helps in updating project board)
 - Do not merge your changes yourself, please try to request a review from one of the member.
@@ -24,13 +26,13 @@ npm run format
 
 # Running it locally
 
-To run the project follow these steps: 
+To run the project follow these steps:
 
 - Go to the project directory in your CLI and type:
 
 ```bash
 # To install the dependencies
-npm install 
+npm install
 ```
 
 - To start the react app, type
