@@ -30,6 +30,22 @@ const fellows = [
         "linkedin": "https://www.linkedin.com/in/nhimaido/",
         "website": " ",
         "headshot": "https://drive.google.com/open?id=15OH04-EwWMrOLq4hWIZysq499if_flVB"
+    },
+    {
+        "name": "Carlos",
+        "bio": "My name is Carlos and I am a Computer Engineering senior from the University of Central Florida in Orlando, Florida. I am a Java programmer with an interest in mobile applications. In my free time I like to cook, play video games, and listen to Bad Bunny!",
+        "github": "https://github.com/carlosricov",
+        "linkedin": "https://www.linkedin.com/in/carlosricoveri/",
+        "website": "http://carlosricoveri.com/",
+        "headshot": "https://drive.google.com/open?id=1FqT_gdJ45XQPd0gtEdpq7W1eu-2uQuBI"
+    },
+    {
+        "name": "Faisal",
+        "bio": "Full Stack Developer and VAPT Analyst",
+        "github": "https://github.com/felixfaisal",
+        "linkedin": "https://www.linkedin.com/in/faisal-ahmed-farooq-6395a0174/",
+        "website": "https://felixfaisal.github.io/Personal-Template/",
+        "headshot": "https://drive.google.com/open?id=1in55eSsnMDXXiwZKRk5dSSUoVnSCtAyv"
     }
 ]
 
