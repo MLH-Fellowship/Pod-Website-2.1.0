@@ -1,0 +1,11 @@
+.carouselCard {
+    min-height: 60vh;
+    width: 60vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #264AC9;
+    color: white;
+}
