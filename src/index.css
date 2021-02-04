@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+@font-face {
+  font-family: 'DOCK11';
+  font-style: normal;
+  font-weight: 900;
+  src: local('DOCK11'), url(./assets/fonts/heavy_dock11.otf) format('opentype');
+}
+
 * {
   box-sizing: border-box;
   max-width: 100%;
