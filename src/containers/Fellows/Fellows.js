@@ -1,7 +1,9 @@
 import React from "react";
 import {  MDBRow, MDBCard, MDBCardBody } from "mdbreact";
+import FellowCard from "../../components/FellowCard/FellowCard";
 
 const Fellows = () => {
+
   return (
     <MDBCard className="my-5 px-5 pb-5 text-center">
         <MDBCardBody>
@@ -12,7 +14,11 @@ const Fellows = () => {
             Divided by countries and culture, United by Technology ! :heart:
           </p>
           <MDBRow>
-            {/* fellow cards called here */}
+            {fellows.map((fellow) => {
+              return(
+                <FellowCard props={fellow}/>
+              )
+            })}
           </MDBRow>
         </MDBCardBody>
       </MDBCard>
