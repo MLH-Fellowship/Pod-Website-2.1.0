@@ -13,12 +13,12 @@ const Projects = () => {
         {projects.map((item, index) => {
           return (
             <Carousel.Item key={index} interval={2000}>
-                <CarouselCard title={item.project} techstack={item['tech stack']} />
+              <CarouselCard title={item.project} techstack={item['tech stack']} language={item['language']} platform={item['platform']} />
             </Carousel.Item>
           );
         })}
       </Carousel>
-      <img src={minion} className={styles.minion} id="minion" alt="minion"/>
+      <img src={minion} className={styles.minion} id="minion" alt="minion" />
     </div>
   );
 };

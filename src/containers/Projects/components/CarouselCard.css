@@ -1,11 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@900&display=swap');
 .carouselCard {
-    min-height: 60vh;
-    width: 60vw;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #264AC9;
-    color: white;
+  min-height: 60vh;
+  width: 90vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #264ac9;
+  color: gold;
+  font-family: 'Source Code Pro', monospace;
+}
+@media only screen and (max-width: 768px) {
+  .carouselCard {
+    min-height: 80vh;
+    width: 90vw;
+  }
+}
+.tagtech {
+  display: flex;
+  flex-direction: row;
 }

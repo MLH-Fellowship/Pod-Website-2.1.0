@@ -6,12 +6,14 @@
   position: relative;
 }
 
-.minion{
+.minion {
   position: absolute;
   bottom: -50px;
   right: -60px;
 }
-
-#carouselOverride {
-  
+@media only screen and (max-width: 768px) {
+  .container {
+    min-height: 80vh;
+    width: 95vw;
+  }
 }
