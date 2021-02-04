@@ -37,8 +37,9 @@ npm install
 
 - To start the react app, type
 
-```html
-# To start the development server npm start
+```bash
+# To start the development server
+npm start
 ```
 
 - This will start the server at [localhost:3000](https://localhost:3000)
