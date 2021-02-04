@@ -1,4 +1,4 @@
-import './App.css';
+import React from 'react';
 
 import Hero from './containers/Hero/Hero';
 import Fellows from './containers/Fellows/Fellows';
