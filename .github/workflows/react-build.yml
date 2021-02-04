@@ -30,8 +30,5 @@ jobs:
     - name: Install packages
       run: npm install
     
-    - name: Run react tests
-      run: npm run test
-    
     - name: build react
       run: npm run build
