@@ -1,1 +1,1 @@
-export {default} from './FellowCard';
+export { default } from './FellowCard';
