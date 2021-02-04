@@ -26,7 +26,6 @@ const Fellows = () => {
           </p>
           <MDBRow>
             {fellows.map((fellow, index) => {
-              console.log(fellow)
               return(
                 <FellowCard key={index} name={fellow.name}/>
               )
