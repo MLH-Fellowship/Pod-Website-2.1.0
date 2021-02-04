@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "project": "Name",
+      "project": "PORTFOLIO-TEMPLATE",
       "id": "1",
       "links": "https://github.com/",
       "tech stack": "languages/frameworks"
@@ -15,36 +15,6 @@
     {
       "project": "Name",
       "id": "3",
-      "links": "https://github.com/",
-      "tech stack": "languages/frameworks"
-    },
-    {
-      "project": "Name",
-      "id": "4",
-      "links": "https://github.com/",
-      "tech stack": "languages/frameworks"
-    },
-    {
-      "project": "Name",
-      "id": "5",
-      "links": "https://github.com/",
-      "tech stack": "languages/frameworks"
-    },
-    {
-      "project": "Name",
-      "id": "6",
-      "links": "https://github.com/",
-      "tech stack": "languages/frameworks"
-    },
-    {
-      "project": "Name",
-      "id": "7",
-      "links": "https://github.com/",
-      "tech stack": "languages/frameworks"
-    },
-    {
-      "project": "Name",
-      "id": "8",
       "links": "https://github.com/",
       "tech stack": "languages/frameworks"
     }
