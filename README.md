@@ -35,7 +35,7 @@ npm install
 
 - To start the react app, type
 
-```html
+```bash
 # To start the development server
 npm start
 ```
