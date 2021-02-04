@@ -1,19 +1,16 @@
 .container {
-  min-height: 100vh;
+  height: 100vh;
   width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-left: var(--container-horizontal-padding);
-  padding-right: var(--container-horizontal-padding);
+  text-align: right;
+  position: relative;
+  overflow: hidden;
 }
 
-.container > div {
-  flex: 1;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-direction: column;
+.heroText {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  text-align: left;
 }
 
 .title {
@@ -30,4 +27,18 @@
   font-weight: 900;
   color: var(--yellow);
   margin-top: 0;
+}
+
+.gif {
+  height: 100vh;
+  width: 85%;
+  margin-left: 25%;
+}
+
+@media only screen and (max-width: 800px) {
+  .gif {
+    height: 90vh;
+    width: 100%;
+    margin-left: 0;
+  }
 }
