@@ -54,6 +54,14 @@ const fellows = [
         "linkedin": "linkedin.com/in/petercrackthecode/",
         "website": "petercrackthecode.github.io/portfolioPeter/",
         "headshot": "https://drive.google.com/open?id=198oLw_G5C61YEKjf8hc6cImVG3upvNNU"
+    },
+    {
+        "name": "Payas",
+        "bio": "Computer Science major at the University of Alberta, Canada. I enjoy web development and aspire to work in full-stack/backend development.",
+        "github": "https://github.com/PayasSingh",
+        "linkedin": "https://www.linkedin.com/in/payas-singh/",
+        "website": "https://payassingh.github.io",
+        "headshot": "https://drive.google.com/open?id=1AqFhBmAMqxAM4_FwUA1yOZ_Dp4f6yUFH"
     }
 ]
 
