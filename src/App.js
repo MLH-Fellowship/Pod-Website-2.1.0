@@ -4,8 +4,9 @@ import Hero from './containers/Hero';
 import Fellows from './containers/Fellows';
 import Footer from './containers/Footer';
 import Projects from './containers/Projects';
-
+import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const App = () => {
   return (
