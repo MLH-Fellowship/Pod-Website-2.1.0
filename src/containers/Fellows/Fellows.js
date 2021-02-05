@@ -1,5 +1,5 @@
 import React from "react";
-import {  MDBRow, MDBCard, MDBCardBody } from "mdbreact";
+import {  MDBCard, MDBCardBody } from "mdbreact";
 import FellowCard from "../../components/FellowCard/FellowCard";
 import styles from './Fellows.module.css'
 import fellows from './constants.js'
@@ -13,13 +13,13 @@ const Fellows = () => {
           <h2 className={styles.title}>
             Meet the Pod!
           </h2>
-          <MDBRow className={styles.rows}>
+          <div className={styles.rows}>
             {fellows.map((fellow, index) => {
               return(
                 <FellowCard key={index} fellow={fellow}/>
               )
             })}
-          </MDBRow>
+          </div>
         </MDBCardBody>
       </MDBCard>
   );

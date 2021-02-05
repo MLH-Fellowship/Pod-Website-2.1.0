@@ -35,9 +35,14 @@
     font-size: 15px;
 }
 
+.card{
+    max-width: 250px;
+}
+
 @media screen and (min-width: 321px) {
 .card {
-    width: 250px;
+    max-width: 250px;
+    min-width: 200px;
     border-radius: 7px;
     box-shadow: 1px 1px 3px 3px #dad4d4;
     padding: 20px;
