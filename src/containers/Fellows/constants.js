@@ -15,7 +15,8 @@ const fellows = [
     {
         "name": "Yashika",
         "bio": "Super awesome mentor of pod 2.10, 10/10",
-        "headshot": Yashika
+        "headshot": Yashika ,
+        "role": "Pod Leader"
     },
     {
         "name": "Devesh",
@@ -23,7 +24,8 @@ const fellows = [
         "github": "https://github.com/dev2919",
         "linkedin": "https://www.linkedin.com/in/devesh-pawar-60304113b/",
         "website": "https://www.devesh.design/",
-        "headshot": Devesh
+        "headshot": Devesh,
+        "role": "Pod Member"
     },
     {
         "name": "Keshavaa",
@@ -31,7 +33,8 @@ const fellows = [
         "github": "https://github.com/skeshavaa",
         "linkedin": "https://www.linkedin.com/in/keshavaa/",
         "website": "https://skeshavaa.live/",
-        "headshot": Keshavaa
+        "headshot": Keshavaa,
+        "role": "Pod Member"
     },
     {
         "name": "Abhishek",
@@ -39,7 +42,8 @@ const fellows = [
         "github": "https://github.com/Abhishek-kumar09",
         "linkedin": "https://www.linkedin.com/in/abhishek-kumar-016ba1175/",
         "website": " ",
-        "headshot": Abishek
+        "headshot": Abishek,
+        "role": "Pod Member"
     },
     {
         "name": "Nhi",
@@ -47,7 +51,8 @@ const fellows = [
         "github": "https://github.com/n-maido",
         "linkedin": "https://www.linkedin.com/in/nhimaido/",
         "website": " ",
-        "headshot": Nhi
+        "headshot": Nhi,
+        "role": "Pod Member"
     },
     {
         "name": "Carlos",
@@ -55,7 +60,8 @@ const fellows = [
         "github": "https://github.com/carlosricov",
         "linkedin": "https://www.linkedin.com/in/carlosricoveri/",
         "website": "http://carlosricoveri.com/",
-        "headshot": Carlos
+        "headshot": Carlos ,
+        "role": "Pod Member"
     },
     {
         "name": "Faisal",
@@ -63,7 +69,8 @@ const fellows = [
         "github": "https://github.com/felixfaisal",
         "linkedin": "https://www.linkedin.com/in/faisal-ahmed-farooq-6395a0174/",
         "website": "https://felixfaisal.github.io/Personal-Template/",
-        "headshot": Faisal
+        "headshot": Faisal ,
+        "role": "Pod Member"
     },
     {
         "name": "Peter",
@@ -71,7 +78,8 @@ const fellows = [
         "github": "https://github.com/petercrackthecode",
         "linkedin": "linkedin.com/in/petercrackthecode/",
         "website": "petercrackthecode.github.io/portfolioPeter/",
-        "headshot": Peter
+        "headshot": Peter ,
+        "role": "Pod Member"
     },
     {
         "name": "Payas",
@@ -79,7 +87,8 @@ const fellows = [
         "github": "https://github.com/PayasSingh",
         "linkedin": "https://www.linkedin.com/in/payas-singh/",
         "website": "https://payassingh.github.io/portfolio-template/",
-        "headshot": Payas
+        "headshot": Payas ,
+        "role": "Pod Member"
     },
     {
         "name": "Ravisha",
@@ -87,7 +96,8 @@ const fellows = [
         "github": "https://github.com/ravisha7feb",
         "linkedin": "https://www.linkedin.com/in/ravisha-sharma-3b7aa219b/",
         "website": "https://ravisha7feb.github.io/portfolio-template/",
-        "headshot": Ravisha
+        "headshot": Ravisha ,
+        "role": "Pod Member"
     },
     {
         "name": "Guna",
@@ -95,12 +105,14 @@ const fellows = [
         "github": "https://github.com/GunaShekar02/",
         "linkedin": "https://www.linkedin.com/in/guna-shekar-proddaturi/",
         "website": "https://anjali-19.web.app/",
-        "headshot": Guna
+        "headshot": Guna ,
+        "role": "Pod Member"
     },
     {
         "name": "Anjali",
         "bio": "Web developer, painter and mechanical keyboard fanatic(who loves to discuss them since she is too poor to afford one). ",
-        "headshot": Anjali
+        "headshot": Anjali ,
+        "role": "Pod Member"
     }
 ]
 
