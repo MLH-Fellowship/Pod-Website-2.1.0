@@ -2,9 +2,12 @@ import React, { useState, useEffect } from 'react';
 
 import Hero from './containers/Hero';
 import Fellows from './containers/Fellows';
+import Footer from './containers/Footer';
 import Projects from './containers/Projects';
 // Navbar
 import Nav from './components/Nav';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -25,6 +28,7 @@ const App = () => {
       <Hero />
       <Fellows />
       <Projects />
+      <Footer />
     </>
   );
 };
