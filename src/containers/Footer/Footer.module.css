@@ -17,13 +17,9 @@
   flex-direction: column;
 }
 
-
-
-
-
 .title {
   font-family: 'DM Sans', sans-serif;
-  font-size: var( --web-footer-size);
+  font-size: var(--web-footer-size);
   color: var(--black);
   margin-bottom: 0;
 }
