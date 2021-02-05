@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import './Nav.css';
 import { ReactComponent as Logo } from '../../assets/images/Logo.svg';
 
@@ -10,34 +10,35 @@ import { faSlack, faGithub } from '@fortawesome/free-brands-svg-icons';
 const WIDTH_LIMIT = 705;
 
 const tabsContent = [
-    { icon: faHome, name: 'Home' },
-    { icon: faSlack, name: 'Team' },
-    { icon: faGithub, name: 'Projects' }
-  ];
+  { icon: faHome, name: 'Home' },
+  { icon: faSlack, name: 'Team' },
+  { icon: faGithub, name: 'Projects' }
+];
 
-const Tab = ({display}) => {
-  return (
-    tabsContent.map((content, index) => (
-        <li key={index} style={{display: display}}>
-            <a>
-                <FontAwesomeIcon icon={content.icon} size="2x" />
-                <p>{content.name}</p>
-            </a>
-        </li>
-      ))
-  );
+const Tab = ({ display }) => {
+  return tabsContent.map((content, index) => (
+    <li key={index} style={{ display: display }}>
+      <a>
+        <FontAwesomeIcon icon={content.icon} size="2x" />
+        <p>{content.name}</p>
+      </a>
+    </li>
+  ));
 };
 
-const MobileMenuBtn = ({isMobileMenuOpen, setMobileMenu}) => {
-    const toggleMobileMenu = () => setMobileMenu(!isMobileMenuOpen); 
+const MobileMenuBtn = ({ isMobileMenuOpen, setMobileMenu }) => {
+  const toggleMobileMenu = () => setMobileMenu(!isMobileMenuOpen);
 
-    return (
-        <div className={'mobile-menu-btn' + (isMobileMenuOpen ? " change" : "")} onClick={toggleMobileMenu}>
-            <div className='bar1'></div>
-            <div className='bar2'></div>
-            <div className='bar3'></div>
-        </div>
-    );
+  return (
+    <div
+      className={'mobile-menu-btn' + (isMobileMenuOpen ? ' change' : '')}
+      onClick={toggleMobileMenu}
+    >
+      <div className="bar1"></div>
+      <div className="bar2"></div>
+      <div className="bar3"></div>
+    </div>
+  );
 };
 
 const Nav = ({ windowWidth }) => {
@@ -52,12 +53,15 @@ const Nav = ({ windowWidth }) => {
       </div>
       {windowWidth >= WIDTH_LIMIT ? (
         <ul className="right-header-desktop">
-          <Tab/>
+          <Tab />
         </ul>
       ) : (
         <ul className="right-header-mobile">
-          <MobileMenuBtn isMobileMenuOpen={isMobileMenuOpen} setMobileMenu={setMobileMenu}/>
-          <Tab display={isMobileMenuOpen ? 'initial' : 'none'}/>
+          <MobileMenuBtn
+            isMobileMenuOpen={isMobileMenuOpen}
+            setMobileMenu={setMobileMenu}
+          />
+          <Tab display={isMobileMenuOpen ? 'initial' : 'none'} />
         </ul>
       )}
     </div>

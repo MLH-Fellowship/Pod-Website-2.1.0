@@ -2,7 +2,7 @@
 
 # Contribution Guide
 
-To contribute to the project follow these steps: 
+To contribute to the project follow these steps:
 
 - Create a new branch from the main branch
 - Clone the branch
@@ -16,12 +16,12 @@ git clone <https> -b <branch-name>
 
 # Running it locally
 
-To run the project follow these steps: 
+To run the project follow these steps:
 
 - Go to the project directory in your CLI and type:
 
 ```bash
-npm install 
+npm install
 ```
 
 - To start the react app, type

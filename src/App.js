@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 
 import Hero from './containers/Hero';
 import Fellows from './containers/Fellows';
@@ -10,18 +10,18 @@ const App = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {
-    window.addEventListener("resize", () => {
+    window.addEventListener('resize', () => {
       setWindowWidth(window.innerWidth);
     });
 
     return function cleanup() {
-      window.removeEventListener("resize");
+      window.removeEventListener('resize');
     };
   }, []);
 
   return (
     <>
-      <Nav windowWidth={windowWidth}/>
+      <Nav windowWidth={windowWidth} />
       <Hero />
       <Fellows />
       <Projects />
