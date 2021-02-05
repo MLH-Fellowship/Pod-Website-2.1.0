@@ -31,3 +31,7 @@
   color: var(--yellow);
   margin-top: 0;
 }
+
+.gif {
+  height: 100vh;
+}

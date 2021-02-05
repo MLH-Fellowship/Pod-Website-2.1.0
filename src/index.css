@@ -13,7 +13,7 @@
 }
 
 :root {
-  --yellow: #ffd824;
+  --yellow: #ffd824, 100%;
   --black: #000000;
   --grey: rgba(0, 0, 0, 0.4);
   --web-title-size: 6vw;
