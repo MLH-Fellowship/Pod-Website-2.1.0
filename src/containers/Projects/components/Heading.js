@@ -1,12 +1,8 @@
-import React from 'react'
-import './CarouselCard.css'
+import React from 'react';
+import './CarouselCard.css';
 
 function Heading() {
-    return (
-        <div className="Heading">
-            <h1>PROJECTS</h1>
-        </div>
-    )
+  return <h1 className="Heading">PROJECTS</h1>;
 }
 
-export default Heading
+export default Heading;
