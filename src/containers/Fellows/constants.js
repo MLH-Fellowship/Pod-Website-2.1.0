@@ -62,6 +62,22 @@ const fellows = [
         "linkedin": "https://www.linkedin.com/in/payas-singh/",
         "website": "https://payassingh.github.io/portfolio-template/",
         "headshot": "https://drive.google.com/open?id=1AqFhBmAMqxAM4_FwUA1yOZ_Dp4f6yUFH"
+    },
+    {
+        "name": "Ravisha",
+        "bio": "A Learner, Problem-Solver and a Blogger. I am a Computer Science UnderGrad, a WTEF, Google-Scholar and an MLH Fellow.",
+        "github": "https://github.com/ravisha7feb",
+        "linkedin": "https://www.linkedin.com/in/ravisha-sharma-3b7aa219b/",
+        "website": "https://ravisha7feb.github.io/portfolio-template/",
+        "headshot": "https://drive.google.com/open?id=1C73_4V8iK4h4ILWxLFneqZD92hGRrOme"
+    },
+    {
+        "name": "Anjali",
+        "bio": "Web developer, painter and mechanical keyboard fanatic(who loves to discuss them since she is too poor to afford one). ",
+        "github": "https://github.com/anjali-001",
+        "linkedin": "https://www.linkedin.com/in/anjali-singh19/",
+        "website": "https://anjali-19.web.app/",
+        "headshot": "https://drive.google.com/open?id=1Yr3dZvxN9JIInDAKvwYB_sPHGyIqUS_V"
     }
 ]
 
