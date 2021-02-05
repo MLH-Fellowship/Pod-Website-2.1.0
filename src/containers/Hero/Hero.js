@@ -12,7 +12,11 @@ const Hero = () => {
         <h2 className={styles.subtitle}>FELLOW EXPLORER!</h2>
       </div>
       <div>
-        <img src={minionJump} alt="Minions going Bananas!" />
+        <img
+          src={minionJump}
+          alt="Minions going Bananas!"
+          className={styles.gif}
+        />
       </div>
     </div>
   );
