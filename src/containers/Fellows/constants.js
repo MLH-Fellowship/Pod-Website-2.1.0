@@ -104,7 +104,7 @@ const fellows = [
         "bio": "Full Stack, Mobile and Blockchain Developer. I collect crypto.",
         "github": "https://github.com/GunaShekar02/",
         "linkedin": "https://www.linkedin.com/in/guna-shekar-proddaturi/",
-        "website": "https://anjali-19.web.app/",
+        "website": "https://gunashekar02.github.io/portfolio-template/",
         "headshot": Guna ,
         "role": "Pod Member"
     },
@@ -112,6 +112,9 @@ const fellows = [
         "name": "Anjali",
         "bio": "Web developer, painter and mechanical keyboard fanatic(who loves to discuss them since she is too poor to afford one). ",
         "headshot": Anjali ,
+        "github": "",
+        "linkedin": "",
+        "website": "https://anjali-19.web.app/",
         "role": "Pod Member"
     }
 ]
