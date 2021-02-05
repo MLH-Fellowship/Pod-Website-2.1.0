@@ -4,7 +4,7 @@ import Hero from './containers/Hero';
 import Fellows from './containers/Fellows';
 import Projects from './containers/Projects';
 // Navbar
-import Nav from './components/Nav/Nav';
+import Nav from './components/Nav';
 
 const App = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
