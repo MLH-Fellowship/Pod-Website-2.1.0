@@ -10,6 +10,8 @@ import Devesh from './assets/Devesh.png';
 import Ravisha from './assets/Ravisha.jpg';
 import Yashika from './assets/Yashika.jpg';
 import Guna from './assets/Guna.png';
+import Shivam from './assets/Shivam.jpg';
+import Siddesh from './assets/Siddesh.jpeg';
 
 const fellows = [
   {
@@ -110,6 +112,22 @@ const fellows = [
       'Web developer, painter and mechanical keyboard fanatic(who loves to discuss them since she is too poor to afford one). ',
     website: 'https://anjali-19.web.app/',
     headshot: Anjali
+  },
+  {
+    name: 'Shivam',
+    bio: 'I love physics and programming.',
+    github: 'https://github.com/devthepenguin',
+    linkedin: 'https://www.linkedin.com/in/shivam-beniwal-77a223143/',
+    headshot: Shivam
+  },
+  {
+    name: 'Siddesh',
+    bio:
+      'I am a junior year student interested in Industrial research in deep learning and deployment of large scale machine learning models. I enjoy playing basketball and reading books!',
+    github: 'https://github.com/SiddeshSambasivam',
+    linkedin: 'https://www.linkedin.com/in/siddesh-s-s-91697b170/',
+    website: 'https://siddeshsambasivam.github.io/',
+    headshot: Siddesh
   }
 ];
 
