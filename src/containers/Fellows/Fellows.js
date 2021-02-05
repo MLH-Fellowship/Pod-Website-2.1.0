@@ -7,7 +7,7 @@ import fellows from './constants.js'
 const Fellows = () => {
 
   return (
-    <div className="my-5 px-5 pb-5 text-center">
+    <div className="my-5 text-center">
         <MDBCardBody>
           <h2 className={styles.title}>
             MEET THE POD!
@@ -20,6 +20,7 @@ const Fellows = () => {
             })}
           </div>
         </MDBCardBody>
+      
       </div>
   );
 }

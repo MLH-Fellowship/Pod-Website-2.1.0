@@ -51,7 +51,7 @@ const fellows = [
     },
     {
         "name": "Carlos",
-        "bio": "My name is Carlos and I am a Computer Engineering senior from the University of Central Florida in Orlando, Florida. I am a Java programmer with an interest in mobile applications. In my free time I like to cook, play video games, and listen to Bad Bunny!",
+        "bio": "My name is Carlos and I am a Computer Engineering senior from the University of Central Florida in Orlando, Florida.",
         "github": "https://github.com/carlosricov",
         "linkedin": "https://www.linkedin.com/in/carlosricoveri/",
         "website": "http://carlosricoveri.com/",
