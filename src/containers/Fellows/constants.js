@@ -1,3 +1,14 @@
+// import Abishek from './assets/Abishek.jpg'
+// import Carlos from './assets/Carlos.jpg'
+// import Anjali from './assets/Anjali.jpg'
+// import Faisal from './assets/Faisal.jpg'
+// import Nhi from './assets/Nhi.JPG'
+// import Payas from './assets/Payas.jpeg'
+// import Peter from './assets/Peter.jpg'
+// import Keshavaa from './assets/Keshavaa.PNG'
+import Devesh from './assets/Devesh.png'
+// import Ravisha from './assets/Ravisha.jpg'
+
 const fellows = [
     {
         "name": "Devesh",
@@ -5,7 +16,7 @@ const fellows = [
         "github": "https://github.com/dev2919",
         "linkedin": "https://www.linkedin.com/in/devesh-pawar-60304113b/",
         "website": "https://www.devesh.design/",
-        "headshot": "https://drive.google.com/open?id=1MDD2RnGy4qqmv1f7AnMeYu3vQtdn6u_7"
+        "headshot": Devesh
     },
     {
         "name": "Keshavaa",
