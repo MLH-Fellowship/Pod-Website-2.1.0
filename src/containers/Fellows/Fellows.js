@@ -6,7 +6,7 @@ import fellows from './constants.js';
 
 const Fellows = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="Team">
       <h2 className={styles.title}>MEET THE POD!</h2>
 
       <MDBCardBody>

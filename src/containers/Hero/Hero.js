@@ -6,7 +6,7 @@ import minionJump from '../../assets/images/minion-jump.gif';
 
 const Hero = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="Home">
       <div>
         <h1 className={styles.title}>HELLO! THERE</h1>
         <h2 className={styles.subtitle}>FELLOW EXPLORER!</h2>
