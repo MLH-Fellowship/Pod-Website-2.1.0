@@ -20,7 +20,7 @@ const Tab = ({ display }) => {
     <li key={index} style={{ display: display }}>
       <a>
         <FontAwesomeIcon icon={content.icon} size="2x" />
-        <p>{content.name}</p>
+        <span>{content.name}</span>
       </a>
     </li>
   ));
