@@ -37,3 +37,5 @@ typings/
 # lock-files
 package-lock.json
 yarn-lock.json
+
+build/
