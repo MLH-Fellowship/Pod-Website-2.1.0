@@ -21,7 +21,7 @@ html {
   --black: #000000;
   --grey: rgba(0, 0, 0, 0.4);
   --web-title-size: 6vw;
-  --web-subtitle-size: 4vw;
+  --web-subtitle-size: calc(2vmin + 32px);
   --web-footer-size: calc(2vmin + 12px);
   --container-horizontal-padding: 5vw;
 }
