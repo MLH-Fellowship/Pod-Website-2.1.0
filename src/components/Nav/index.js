@@ -1,27 +1,26 @@
 import React, { useState, useEffect } from 'react';
 import './Nav.css';
 import { ReactComponent as Logo } from '../../assets/images/Logo.svg';
+import FeatherIcon from 'feather-icons-react';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome } from '@fortawesome/free-solid-svg-icons';
-import { faSlack, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 // the limit of window.innerWidth that triggers the switch between NavDesktop and NavMobile.
 const WIDTH_LIMIT = 705;
 
 const tabsContent = [
-  { icon: faHome, name: 'Home' },
-  { icon: faSlack, name: 'Team' },
-  { icon: faGithub, name: 'Projects' }
+  { icon: "home", name: 'Home' },
+  { icon: "slack", name: 'Team' },
+  { icon: "github", name: 'Projects' }
 ];
 
 const Tab = ({ display }) => {
   return tabsContent.map((content, index) => (
     <li key={index} style={{ display: display }}>
-      <a>
-        <FontAwesomeIcon icon={content.icon} size="2x" />
-        <span>{content.name}</span>
+      <a >
+        <FeatherIcon icon={content.icon}  size={32} />
+        <span className="tab-name">{content.name}</span>
       </a>
+      
     </li>
   ));
 };
