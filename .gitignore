@@ -38,4 +38,8 @@ typings/
 package-lock.json
 yarn-lock.json
 
+# local directory files
+.DS_Store
+src/.DS_Store
+
 build/
