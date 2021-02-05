@@ -1,17 +1,17 @@
 import React from 'react';
 
 import styles from './FellowCard.module.css';
-import { MDBCol, MDBIcon } from "mdbreact";
+import { MDBIcon } from "mdbreact";
 import PropTypes from 'prop-types';
 
 const FellowCard = ({fellow}) => {
 
-  const { name, bio } = fellow;
+  const { name, bio, headshot } = fellow;
 
   return (
     <div className={styles.card}>
-      <MDBCol lg="3" md="6" className="mb-lg-0 mb-5">
-        <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg" className={styles.avatars}>
+      <div lg="3" md="6" className="mb-lg-0 mb-5">
+        <img src={headshot} className={styles.avatars}>
 
         </img>
         <h5 className={styles.name}>{ name }</h5>
@@ -30,7 +30,7 @@ const FellowCard = ({fellow}) => {
             <MDBIcon fab icon="instagram" className="blue-text" />
           </a>
         </ul>
-      </MDBCol>
+      </div>
     </div>
   )
 };

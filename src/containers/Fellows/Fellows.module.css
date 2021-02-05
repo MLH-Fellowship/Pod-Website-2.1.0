@@ -9,8 +9,8 @@
 
 .title {
   padding: 10px 0px 10px 30px;
-  font-family: 'Fjalla One', sans-serif;
-  font-size: 80px;
+  font-family: 'DOCK11', sans-serif;
+  font-size: calc(2vmin + 50px);
   color: #FFD824;
   margin: 0;
 }
@@ -18,7 +18,7 @@
 .rows{
   display: flex;
   flex-direction: row;
-  padding: 50px;
+  padding: 30px;
   flex-wrap: wrap;
   justify-content: center;
 }

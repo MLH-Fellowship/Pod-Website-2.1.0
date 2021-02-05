@@ -1,15 +1,21 @@
-// import Abishek from './assets/Abishek.jpg'
-// import Carlos from './assets/Carlos.jpg'
-// import Anjali from './assets/Anjali.jpg'
-// import Faisal from './assets/Faisal.jpg'
-// import Nhi from './assets/Nhi.JPG'
-// import Payas from './assets/Payas.jpeg'
-// import Peter from './assets/Peter.jpg'
-// import Keshavaa from './assets/Keshavaa.PNG'
+import Abishek from './assets/Abishek.jpg'
+import Carlos from './assets/Carlos.jpg'
+import Anjali from './assets/Anjali.jpg'
+import Faisal from './assets/Faisal.jpg'
+import Nhi from './assets/Nhi.JPG'
+import Payas from './assets/Payas.jpeg'
+import Peter from './assets/Peter.jpg'
+import Keshavaa from './assets/Keshavaa.PNG'
 import Devesh from './assets/Devesh.png'
-// import Ravisha from './assets/Ravisha.jpg'
+import Ravisha from './assets/Ravisha.jpg'
+import Yashika from './assets/Yashika.jpg'
 
 const fellows = [
+    {
+        "name": "Yashika",
+        "bio": "Super awesome mentor of pod 2.10, 10/10",
+        "headshot": Yashika
+    },
     {
         "name": "Devesh",
         "bio": "Devesh is a full-stack developer & computer science graduate with a passion for product design.",
@@ -24,7 +30,7 @@ const fellows = [
         "github": "https://github.com/skeshavaa",
         "linkedin": "https://www.linkedin.com/in/keshavaa/",
         "website": "https://skeshavaa.live/",
-        "headshot": "https://drive.google.com/open?id=1TGxR4llNr8okrqMJauw_WqEmYaAM_CUq"
+        "headshot": Keshavaa
     },
     {
         "name": "Abhishek",
@@ -32,7 +38,7 @@ const fellows = [
         "github": "https://github.com/Abhishek-kumar09",
         "linkedin": "https://www.linkedin.com/in/abhishek-kumar-016ba1175/",
         "website": " ",
-        "headshot": "https://drive.google.com/open?id=1lNVsSvV85musm797eYjmZzNI2H2eTRKP"
+        "headshot": Abishek
     },
     {
         "name": "Nhi",
@@ -40,7 +46,7 @@ const fellows = [
         "github": "https://github.com/n-maido",
         "linkedin": "https://www.linkedin.com/in/nhimaido/",
         "website": " ",
-        "headshot": "https://drive.google.com/open?id=15OH04-EwWMrOLq4hWIZysq499if_flVB"
+        "headshot": Nhi
     },
     {
         "name": "Carlos",
@@ -48,7 +54,7 @@ const fellows = [
         "github": "https://github.com/carlosricov",
         "linkedin": "https://www.linkedin.com/in/carlosricoveri/",
         "website": "http://carlosricoveri.com/",
-        "headshot": "https://drive.google.com/open?id=1FqT_gdJ45XQPd0gtEdpq7W1eu-2uQuBI"
+        "headshot": Carlos
     },
     {
         "name": "Faisal",
@@ -56,7 +62,7 @@ const fellows = [
         "github": "https://github.com/felixfaisal",
         "linkedin": "https://www.linkedin.com/in/faisal-ahmed-farooq-6395a0174/",
         "website": "https://felixfaisal.github.io/Personal-Template/",
-        "headshot": "https://drive.google.com/open?id=1in55eSsnMDXXiwZKRk5dSSUoVnSCtAyv"
+        "headshot": Faisal
     },
     {
         "name": "Peter",
@@ -64,7 +70,7 @@ const fellows = [
         "github": "https://github.com/petercrackthecode",
         "linkedin": "linkedin.com/in/petercrackthecode/",
         "website": "petercrackthecode.github.io/portfolioPeter/",
-        "headshot": "https://drive.google.com/open?id=198oLw_G5C61YEKjf8hc6cImVG3upvNNU"
+        "headshot": Peter
     },
     {
         "name": "Payas",
@@ -72,7 +78,7 @@ const fellows = [
         "github": "https://github.com/PayasSingh",
         "linkedin": "https://www.linkedin.com/in/payas-singh/",
         "website": "https://payassingh.github.io/portfolio-template/",
-        "headshot": "https://drive.google.com/open?id=1AqFhBmAMqxAM4_FwUA1yOZ_Dp4f6yUFH"
+        "headshot": Payas
     },
     {
         "name": "Ravisha",
@@ -80,7 +86,7 @@ const fellows = [
         "github": "https://github.com/ravisha7feb",
         "linkedin": "https://www.linkedin.com/in/ravisha-sharma-3b7aa219b/",
         "website": "https://ravisha7feb.github.io/portfolio-template/",
-        "headshot": "https://drive.google.com/open?id=1C73_4V8iK4h4ILWxLFneqZD92hGRrOme"
+        "headshot": Ravisha
     },
     {
         "name": "Anjali",
@@ -88,7 +94,7 @@ const fellows = [
         "github": "https://github.com/anjali-001",
         "linkedin": "https://www.linkedin.com/in/anjali-singh19/",
         "website": "https://anjali-19.web.app/",
-        "headshot": "https://drive.google.com/open?id=1Yr3dZvxN9JIInDAKvwYB_sPHGyIqUS_V"
+        "headshot": Anjali
     }
 ]
 
