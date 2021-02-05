@@ -98,7 +98,7 @@ const fellows = [
         "headshot": Guna
     },
     {
-        "Name": "Anjali",
+        "name": "Anjali",
         "bio": "Web developer, painter and mechanical keyboard fanatic(who loves to discuss them since she is too poor to afford one). ",
         "headshot": Anjali
     }
