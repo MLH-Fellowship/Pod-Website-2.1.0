@@ -9,11 +9,11 @@
   padding: 10px 0px 10px 30px;
   font-family: 'DOCK11', sans-serif;
   font-size: calc(2vmin + 50px);
-  color: #FFD824;
+  color: #ffd824;
   margin: 0;
 }
 
-.rows{
+.rows {
   display: flex;
   flex-direction: row;
   padding: 30px;
