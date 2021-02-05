@@ -1,6 +1,8 @@
-# Documentation
+# Ordered Minions
 
-# Contribution Guide
+The pod website to showcase our wonderful team.
+
+# Contributions and Pull Requests
 
 To contribute to the project follow these steps:
 
@@ -11,8 +13,16 @@ To contribute to the project follow these steps:
 git clone <https> -b <branch-name>
 ```
 
-- After all the changes have been done, Create a pull request
+- After all the changes have been done, run
+
+```bash
+npm run format
+```
+
+- Create a Pull request
 - In the PR, under the projects settings, Add project `pod-website` (This helps in updating project board)
+- Do not merge your changes yourself, please try to request a review from one of the member.
+- A PR could be merged when it is approved by atleast one reviewer.
 
 # Running it locally
 
@@ -21,16 +31,18 @@ To run the project follow these steps:
 - Go to the project directory in your CLI and type:
 
 ```bash
+# To install the dependencies
 npm install
 ```
 
 - To start the react app, type
 
-```html
+```bash
+# To start the development server
 npm start
 ```
 
-- This will start the server at [localhost](https://localhost:3000)
+- This will start the server at [localhost:3000](https://localhost:3000)
 
 # Issues
 
