@@ -1,8 +1,12 @@
+import React from 'react';
+
+import Hero from './containers/Hero';
+import Fellows from './containers/Fellows';
+import Footer from './containers/Footer';
+import Projects from './containers/Projects';
 import './App.css';
-import React from 'react'
-import Hero from './containers/Hero/Hero';
-import Fellows from './containers/Fellows/Fellows';
-import Projects from './containers/Projects/Projects';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const App = () => {
   return (
@@ -10,6 +14,7 @@ const App = () => {
       <Hero />
       <Fellows />
       <Projects />
+      <Footer />
     </>
   );
 };

@@ -1,9 +1,10 @@
 .container {
-  min-height: 100vh;
-  width: 100vw;
+  /* min-height: 100vh;
+  width: 100vw; */
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   padding-left: var(--container-horizontal-padding);
   padding-right: var(--container-horizontal-padding);
 }
@@ -11,23 +12,18 @@
 .container > div {
   flex: 1;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
-.title {
-  font-family: 'DOCK11';
-  font-size: var(--web-title-size);
-  font-weight: 900;
-  color: var(--yellow);
-  margin-bottom: 0;
-}
 
-.subtitle {
-  font-family: 'DOCK11';
-  font-size: var(--web-subtitle-size);
-  font-weight: 900;
-  color: var(--yellow);
-  margin-top: 0;
+
+
+
+.title {
+  font-family: 'DM Sans', sans-serif;
+  font-size: var( --web-footer-size);
+  color: var(--black);
+  margin-bottom: 0;
 }

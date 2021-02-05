@@ -1,11 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+@font-face {
+  font-family: 'DOCK11';
+  font-style: normal;
+  font-weight: 900;
+  src: local('DOCK11'), url(./assets/fonts/heavy_dock11.otf) format('opentype');
+}
+
 * {
   box-sizing: border-box;
   max-width: 100%;
 }
 
+:root {
+  --yellow: #ffd824;
+  --black: #000000;
+  --grey: rgba(0, 0, 0, 0.40);
+  --web-title-size: 6vw;
+  --web-subtitle-size: 4vw;
+  --web-footer-size: calc(2vmin + 12px);
+  --container-horizontal-padding: 5vw;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'DM Sans',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
