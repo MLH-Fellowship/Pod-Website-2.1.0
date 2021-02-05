@@ -5,15 +5,17 @@ import { Carousel } from 'react-bootstrap';
 import { projects } from './projects-data.json';
 import minion from '../../assets/projectImg/minion.png'
 import CarouselCard from './components/CarouselCard'
+import Heading from './components/Heading'
 
 const Projects = () => {
   return (
     <div className={styles.container}>
+      <Heading />
       <Carousel className="container" id={styles.carouselOverride}>
         {projects.map((item, index) => {
           return (
             <Carousel.Item key={index} interval={2000}>
-              <CarouselCard title={item.project} techstack={item['tech stack']} language={item['language']} platform={item['platform']} />
+              <CarouselCard title={item.project} language={item['language']} platform={item['platform']} link={item['links']} />
             </Carousel.Item>
           );
         })}
