@@ -2,7 +2,6 @@ import React from 'react';
 
 import styles from './FellowCard.module.css';
 import { MDBIcon } from "mdbreact";
-import PropTypes from 'prop-types';
 
 const FellowCard = ({fellow}) => {
 
@@ -34,10 +33,5 @@ const FellowCard = ({fellow}) => {
     </div>
   )
 };
-
-FellowCard.PropTypes = {
-  name: PropTypes.string
-}
-
 
 export default FellowCard;

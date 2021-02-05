@@ -6,7 +6,6 @@ import fellows from './constants.js'
 
 const Fellows = () => {
 
-
   return (
     <div className="my-5 px-5 pb-5 text-center">
         <MDBCardBody>
