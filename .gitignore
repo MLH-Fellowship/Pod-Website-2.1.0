@@ -41,3 +41,4 @@ yarn-lock.json
 # local directory files
 .DS_Store
 src/.DS_Store
+yarn.lock
