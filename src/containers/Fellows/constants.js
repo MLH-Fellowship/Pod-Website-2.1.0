@@ -9,6 +9,7 @@ import Keshavaa from './assets/Keshavaa.PNG'
 import Devesh from './assets/Devesh.png'
 import Ravisha from './assets/Ravisha.jpg'
 import Yashika from './assets/Yashika.jpg'
+import Guna from './assets/Guna.png'
 
 const fellows = [
     {
@@ -94,7 +95,12 @@ const fellows = [
         "github": "https://github.com/GunaShekar02/",
         "linkedin": "https://www.linkedin.com/in/guna-shekar-proddaturi/",
         "website": "https://anjali-19.web.app/",
-        "headshot": "https://drive.google.com/open?id=1waXzBJCznY2iedr_fUjN3AdN4Jiti8jS"
+        "headshot": Guna
+    },
+    {
+        "name": "Anjali",
+        "bio": "Web developer, painter and mechanical keyboard fanatic(who loves to discuss them since she is too poor to afford one). ",
+        "headshot": Anjali
     }
 ]
 
