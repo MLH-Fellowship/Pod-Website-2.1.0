@@ -60,7 +60,7 @@ const fellows = [
         "bio": "Computer Science major at the University of Alberta, Canada. I enjoy web development and aspire to work in full-stack/backend development.",
         "github": "https://github.com/PayasSingh",
         "linkedin": "https://www.linkedin.com/in/payas-singh/",
-        "website": "https://payassingh.github.io",
+        "website": "https://payassingh.github.io/portfolio-template/",
         "headshot": "https://drive.google.com/open?id=1AqFhBmAMqxAM4_FwUA1yOZ_Dp4f6yUFH"
     }
 ]
