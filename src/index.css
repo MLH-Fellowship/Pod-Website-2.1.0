@@ -39,3 +39,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media only screen and (max-width: 705px) {
+  :root {
+    --web-title-size: 10vw;
+    --web-subtitle-size: 8vw;
+    --container-horizontal-padding: 5vw;
+  }
+}
