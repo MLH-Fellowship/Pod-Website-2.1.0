@@ -9,7 +9,7 @@ import Heading from './components/Heading';
 
 const Projects = () => {
   return (
-    <div className={styles.container} id="Projects">
+    <div className={styles.container} id='Projects'>
       <Heading />
       <Carousel className={styles.carouselContainer}>
         {projects.map((item, index) => {
@@ -25,7 +25,7 @@ const Projects = () => {
           );
         })}
       </Carousel>
-      <img src={minion} className={styles.minion} id="minion" alt="minion" />
+      <img src={minion} className={styles.minion} id='minion' alt='minion' />
     </div>
   );
 };
