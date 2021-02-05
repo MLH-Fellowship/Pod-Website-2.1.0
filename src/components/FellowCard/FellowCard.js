@@ -5,7 +5,7 @@ import FeatherIcon from 'feather-icons-react';
 
 const FellowCard = ({fellow}) => {
 
-    const {name, bio, headshot} = fellow;
+    const {name, bio, headshot, github, linkedin, link} = fellow;
     // const [hover, setHover] = useState(false)
 
     return (
@@ -24,9 +24,9 @@ const FellowCard = ({fellow}) => {
         </div>
         <div className={styles.linksParent}>
             <div className={styles.links}>
-            <FeatherIcon icon="github" size="32" />
-            <FeatherIcon icon="linkedin"  size="32"/>
-            <FeatherIcon icon="link" size="32" />
+            <a href={github}><FeatherIcon icon="github" size="32"/></a>
+            <a href={linkedin}><FeatherIcon icon="linkedin"  size="32"/></a>
+            <a href={link}><FeatherIcon icon="link" size="32" /></a>
             </div>
         </div>
       </div>
