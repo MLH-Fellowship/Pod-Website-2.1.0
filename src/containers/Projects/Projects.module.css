@@ -24,4 +24,13 @@
   .container {
     min-height: 80vh;
   }
+  .carouselContainer {
+    width: 100vw;
+  }
+  .minion {
+    position: absolute;
+    bottom: -50px;
+    right: 0;
+    z-index: 9999;
+  }
 }

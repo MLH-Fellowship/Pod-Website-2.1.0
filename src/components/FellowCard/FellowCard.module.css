@@ -72,7 +72,7 @@
 }
 
 .parentCard:hover .linksParent {
-  display: block;
+  display: flex;
 }
 
 .linksParent {
@@ -80,10 +80,10 @@
   bottom: 98%;
   background: #0000004d;
   margin: 15px;
-  padding: 20px;
   height: 95%;
   border-radius: 8px;
   display: none;
+  justify-content: center;
 }
 
 .tag {
@@ -106,7 +106,8 @@
 }
 
 .links {
-  position: relative;
+  position: absolute;
+  width: 78%;
   justify-content: space-around;
   top: 50%;
   background: #ffffff;
