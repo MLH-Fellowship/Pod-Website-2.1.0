@@ -19,3 +19,8 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+svg{
+  color: black;
+  text-decoration: none;
+
+}
