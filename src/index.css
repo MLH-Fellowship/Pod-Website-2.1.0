@@ -12,21 +12,25 @@
   max-width: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --yellow: #ffd824;
   --black: #000000;
-  --grey: rgba(0, 0, 0, 0.40);
+  --grey: rgba(0, 0, 0, 0.4);
   --web-title-size: 6vw;
-  --web-subtitle-size: 4vw;
+  --web-subtitle-size: calc(2vmin + 32px);
   --web-footer-size: calc(2vmin + 12px);
   --container-horizontal-padding: 5vw;
 }
 
 body {
   margin: 0;
-  font-family: 'DM Sans',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

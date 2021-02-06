@@ -1,13 +1,13 @@
-import {React} from 'react';
+import { React } from 'react';
 import styles from './FellowCard.module.css';
 import FeatherIcon from 'feather-icons-react';
 // import { MDBIcon } from "mdbreact";
 
-const FellowCard = ({fellow}) => {
+const FellowCard = ({ fellow }) => {
+  
 
     const {name, bio, role, headshot, github, linkedin, website} = fellow;
-    // const [hover, setHover] = useState(false)
-
+    
     return (
       <div className={styles.parentCard}>
         <div className={styles.card}>
@@ -30,7 +30,8 @@ const FellowCard = ({fellow}) => {
             </div>
         </div>
       </div>
-    )
+   
+  );
 };
 
 export default FellowCard;

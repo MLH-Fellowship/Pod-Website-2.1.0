@@ -22,8 +22,8 @@
   flex-direction: row;
 }
 .Heading {
-  text-align: center;
   padding-bottom: 10px;
-  font-family: 'Source Code Pro', monospace;
-  color: #264ac9;
+  font-family: 'DOCK11';
+  color: var(--yellow);
+  font-size: var(--web-subtitle-size);
 }

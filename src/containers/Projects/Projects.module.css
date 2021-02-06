@@ -1,20 +1,36 @@
 .container {
   min-height: 60vh;
-  width: 60vw;
-  margin: auto;
+  width: 100vw;
   margin-bottom: 100px;
   position: relative;
+  padding-left: var(--container-horizontal-padding);
+  padding-right: var(--container-horizontal-padding);
+  display: flex;
+  flex-direction: column;
+}
+
+.carouselContainer {
+  width: 60vw;
+  align-self: center;
 }
 
 .minion {
   position: absolute;
   bottom: -50px;
-  right: -60px;
+  right: 15vw;
   z-index: 9999;
 }
 @media only screen and (max-width: 768px) {
   .container {
     min-height: 80vh;
-    width: 95vw;
+  }
+  .carouselContainer {
+    width: 100vw;
+  }
+  .minion {
+    position: absolute;
+    bottom: -50px;
+    right: 0;
+    z-index: 9999;
   }
 }

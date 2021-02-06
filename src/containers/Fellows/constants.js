@@ -1,15 +1,17 @@
-import Abishek from './assets/Abishek.jpg'
-import Carlos from './assets/Carlos.jpg'
-import Anjali from './assets/Anjali.jpg'
-import Faisal from './assets/Faisal.jpg'
-import Nhi from './assets/Nhi.JPG'
-import Payas from './assets/Payas.jpeg'
-import Peter from './assets/Peter.jpg'
-import Keshavaa from './assets/Keshavaa.PNG'
-import Devesh from './assets/Devesh.png'
-import Ravisha from './assets/Ravisha.jpg'
-import Yashika from './assets/Yashika.jpg'
-import Guna from './assets/Guna.png'
+import Abishek from './assets/Abishek.jpg';
+import Carlos from './assets/Carlos.jpg';
+import Anjali from './assets/Anjali.jpg';
+import Faisal from './assets/Faisal.jpg';
+import Nhi from './assets/Nhi.JPG';
+import Payas from './assets/Payas.jpeg';
+import Peter from './assets/Peter.jpg';
+import Keshavaa from './assets/Keshavaa.PNG';
+import Devesh from './assets/Devesh.png';
+import Ravisha from './assets/Ravisha.jpg';
+import Yashika from './assets/Yashika.jpg';
+import Guna from './assets/Guna.png';
+import Shivam from './assets/Shivam.jpg';
+import Siddesh from './assets/Siddesh.jpeg';
 
 const fellows = [
     {
@@ -73,6 +75,24 @@ const fellows = [
         "role": "Pod Member"
     },
     {
+      name: 'Shivam',
+      bio: 'I love physics and programming.',
+      github: 'https://github.com/devthepenguin',
+      linkedin: 'https://www.linkedin.com/in/shivam-beniwal-77a223143/',
+      headshot: Shivam,
+      role: "Pod Member"
+    },
+    {
+      name: 'Siddesh',
+      bio:
+        'I am a junior year student interested in Industrial research in deep learning and deployment of large scale machine learning models. I enjoy playing basketball and reading books!',
+      github: 'https://github.com/SiddeshSambasivam',
+      linkedin: 'https://www.linkedin.com/in/siddesh-s-s-91697b170/',
+      website: 'https://siddeshsambasivam.github.io/',
+      headshot: Siddesh,
+      role: "Pod Member"
+    },
+    {
         "name": "Peter",
         "bio": "Indie Builder. Augmented Reality & Computer Vision aficionado. Collect credit & debit cards sometimes.",
         "github": "https://github.com/petercrackthecode",
@@ -119,4 +139,4 @@ const fellows = [
     }
 ]
 
-export default fellows
+export default fellows;

@@ -1,152 +1,150 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
 
 .container {
-    display: flex;
-    -webkit-flex-direction: column;
-    flex-direction: column;
-    max-width: 250px;
-    height: auto;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  max-width: 250px;
+  height: auto;
 }
 
-
 .overlay {
-    position: absolute;
-    height: auto;
-    width: 250px;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #008CBA;
+  position: absolute;
+  height: auto;
+  width: 250px;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #008cba;
 }
 
 .overlay:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 .avatars {
-    border-radius: 7px;
-    vertical-align: center;
-    align-items: center;
-    vertical-align: middle;
-    height: 188px;
-    width: 188px;
-    object-fit: cover;
+  border-radius: 7px;
+  vertical-align: center;
+  align-items: center;
+  vertical-align: middle;
+  height: 188px;
+  width: 188px;
+  object-fit: cover;
 }
 
 .name {
-    text-align: left;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: bold;
-    margin: 0;
-    padding-top: 16px;
-    font-size: 21px;
+  text-align: left;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding-top: 16px;
+  font-size: 21px;
 }
 
 .position {
-    text-align: left;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 0;
-    padding-top: 5px;
+  text-align: left;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0;
+  padding-top: 5px;
 }
 
 .bio {
-    text-align: left;
-    font-family: 'DM Sans', sans-serif;
-    margin: 0;
-    padding-top: 5px;
-    font-size: 15px;
+  text-align: left;
+  font-family: 'DM Sans', sans-serif;
+  margin: 0;
+  padding-top: 5px;
+  font-size: 15px;
 }
 
 .card {
-    max-width: 250px;
-    margin: 15px;
-    position: relative;
-    height: -webkit-fill-available;
+  max-width: 250px;
+  margin: 15px;
+  position: relative;
+  height: -webkit-fill-available;
 }
 
-
-
 .card:hover {
-    filter: brightness(0.5);
-    background: #0000001f;
+  filter: brightness(0.5);
+  background: #0000001f;
 }
 
 .parentCard:hover .links {
-    display: flex;
+  display: flex;
 }
 
 .parentCard:hover .linksParent {
-    display: block;
+  display: flex;
 }
 
 .linksParent {
-    position: relative;
-    bottom: 98%;
-    background: #0000004d;
-    margin: 15px;
-    padding: 20px;
-    height: 95%;
-    border-radius: 8px;
-    display: none;
+  position: relative;
+  bottom: 98%;
+  background: #0000004d;
+  margin: 15px;
+  height: 95%;
+  border-radius: 8px;
+  display: none;
+  justify-content: center;
 }
 
 .tag {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 4px 16px;
-    background: #F8EB20;
-    border-radius: 16px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin: 16px 0px;
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 4px 16px;
+  background: #f8eb20;
+  border-radius: 16px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 16px 0px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
 }
 
 .links {
-    position: relative;
-    justify-content: space-around;
-    top: 50%;
-    background: #FFFFFF;
-    box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.16);
-    border-radius: 8px;
-    display: none;
-    justify-content: space-around;
-    padding: 16px;
-    cursor: pointer;
+  position: absolute;
+  width: 78%;
+  justify-content: space-around;
+  top: 50%;
+  background: #ffffff;
+  box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.16);
+  border-radius: 8px;
+  display: none;
+  justify-content: space-around;
+  padding: 16px;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 500px) {
-    .card {
-        max-width: 250px;
-        min-width: 200px;
-        border-radius: 8px;
-        background: #FFFFFF;
-        box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.16);
-        padding: 20px;
-        margin: 7px;
-        box-sizing: border-box;
-        margin: 15px;
-        height: 95%;
-    }
+  .card {
+    max-width: 250px;
+    min-width: 200px;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.16);
+    padding: 20px;
+    margin: 7px;
+    box-sizing: border-box;
+    margin: 15px;
+    height: 95%;
+  }
 }
 
 @media screen and (max-width: 490px) {
-    .card {
-        max-width: 250px;
-        min-width: 200px;
-        border-radius: 8px;
-        background: #FFFFFF;
-        box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.16);
-        padding: 20px;
-        margin: 7px;
-        box-sizing: border-box;
-        margin: 15px;
-        height: 95%;
-    }
+  .card {
+    max-width: 250px;
+    min-width: 200px;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.16);
+    padding: 20px;
+    margin: 7px;
+    box-sizing: border-box;
+    margin: 15px;
+    height: 95%;
+  }
 }

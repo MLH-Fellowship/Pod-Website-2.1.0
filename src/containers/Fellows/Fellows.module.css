@@ -6,17 +6,21 @@
 }
 
 .title {
-  padding: 10px 0px 10px 30px;
+  text-align: left;
   font-family: 'DOCK11', sans-serif;
-  font-size: calc(2vmin + 50px);
-  color: #FFD824;
+  font-size: var(--web-subtitle-size);
+  color: var(--yellow);
   margin: 0;
 }
 
-.rows{
+.rows {
   display: flex;
   flex-direction: row;
-  padding: 30px;
   flex-wrap: wrap;
   justify-content: center;
+}
+svg{
+  color: black;
+  text-decoration: none;
+
 }
