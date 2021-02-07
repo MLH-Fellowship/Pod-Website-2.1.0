@@ -23,9 +23,10 @@
   font-weight: 900;
   color: var(--yellow);
   margin-bottom: 0;
+  text-align: center;
 }
 
-.titleContainer{
+.titleContainer {
   position: absolute;
 }
 
@@ -35,6 +36,7 @@
   font-weight: 900;
   color: var(--yellow);
   margin-top: 0;
+  text-align: center;
 }
 
 .gif {
@@ -42,8 +44,8 @@
   object-fit: cover;
 }
 
-
 @media only screen and (max-width: 768px) {
-  
+  .title {
+    font-size: var(--web-subtitle-size);
+  }
 }
-
