@@ -24,9 +24,9 @@ const FellowCard = ({ fellow }) => {
         </div>
         <div className={styles.linksParent}>
             <div className={styles.links}>
-            <a href={github}><FeatherIcon icon="github" size="32"/></a>
-            <a href={linkedin}><FeatherIcon icon="linkedin"  size="32"/></a>
-            <a href={website}><FeatherIcon icon="link" size="32" /></a>
+            <a href={github} target="_blank" rel="noreferrer"><FeatherIcon icon="github" size="32"/></a>
+            <a href={linkedin} target="_blank" rel="noreferrer"><FeatherIcon icon="linkedin"  size="32"/></a>
+            <a href={website} target="_blank" rel="noreferrer"><FeatherIcon icon="link" size="32" /></a>
             </div>
         </div>
       </div>

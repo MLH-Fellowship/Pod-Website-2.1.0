@@ -27,7 +27,7 @@
   align-items: center;
   vertical-align: middle;
   height: 188px;
-  width: 188px;
+  width: max-content;
   object-fit: cover;
 }
 
